@@ -2,7 +2,7 @@ import "./App.css";
 import api from "./API/axiosConfig.js";
 import { useState, useEffect } from "react";
 import Layout from "./components/Layout.js";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./components/home/Home.js";
 import Header from "./components/header/Header.js";
 import Trailer from "./components/trailer/Trailer.js";
@@ -37,26 +37,28 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <Header></Header>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route path="/" element={<Home movies={movies} />}></Route>
-          <Route path="/Trailer/:ytTrailerId" element={<Trailer />}></Route>
-          <Route
-            path="/Reviews/:movieId"
-            element={
-              <Reviews
-                getMovieData={getMovieData}
-                movie={movie}
-                reviews={reviews}
-                setReviews={setReviews}
-              />
-            }
-          ></Route>
-        </Route>
-      </Routes>
-    </div>
+    <BrowserRouter basename="/movie-gold-v1">
+      <div className="App">
+        <Header></Header>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route path="/" element={<Home movies={movies} />}></Route>
+            <Route path="/Trailer/:ytTrailerId" element={<Trailer />}></Route>
+            <Route
+              path="/Reviews/:movieId"
+              element={
+                <Reviews
+                  getMovieData={getMovieData}
+                  movie={movie}
+                  reviews={reviews}
+                  setReviews={setReviews}
+                />
+              }
+            ></Route>
+          </Route>
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
