@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/movies-frontend.MarkOmelyanenko.github.io/static/css/main.c9741442.css",
-    "main.js": "/movies-frontend.MarkOmelyanenko.github.io/static/js/main.cb1c80bc.js",
+    "main.js": "/movies-frontend.MarkOmelyanenko.github.io/static/js/main.16004bc9.js",
     "reactPlayerYouTube.js": "/movies-frontend.MarkOmelyanenko.github.io/static/js/reactPlayerYouTube.9c2d44d3.chunk.js",
     "reactPlayerSoundCloud.js": "/movies-frontend.MarkOmelyanenko.github.io/static/js/reactPlayerSoundCloud.b00452ed.chunk.js",
     "reactPlayerVimeo.js": "/movies-frontend.MarkOmelyanenko.github.io/static/js/reactPlayerVimeo.55469219.chunk.js",
@@ -18,7 +18,7 @@
     "reactPlayerPreview.js": "/movies-frontend.MarkOmelyanenko.github.io/static/js/reactPlayerPreview.158f8402.chunk.js",
     "index.html": "/movies-frontend.MarkOmelyanenko.github.io/index.html",
     "main.c9741442.css.map": "/movies-frontend.MarkOmelyanenko.github.io/static/css/main.c9741442.css.map",
-    "main.cb1c80bc.js.map": "/movies-frontend.MarkOmelyanenko.github.io/static/js/main.cb1c80bc.js.map",
+    "main.16004bc9.js.map": "/movies-frontend.MarkOmelyanenko.github.io/static/js/main.16004bc9.js.map",
     "reactPlayerYouTube.9c2d44d3.chunk.js.map": "/movies-frontend.MarkOmelyanenko.github.io/static/js/reactPlayerYouTube.9c2d44d3.chunk.js.map",
     "reactPlayerSoundCloud.b00452ed.chunk.js.map": "/movies-frontend.MarkOmelyanenko.github.io/static/js/reactPlayerSoundCloud.b00452ed.chunk.js.map",
     "reactPlayerVimeo.55469219.chunk.js.map": "/movies-frontend.MarkOmelyanenko.github.io/static/js/reactPlayerVimeo.55469219.chunk.js.map",
@@ -36,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.c9741442.css",
-    "static/js/main.cb1c80bc.js"
+    "static/js/main.16004bc9.js"
   ]
 }
